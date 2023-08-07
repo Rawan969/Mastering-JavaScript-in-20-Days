@@ -6,15 +6,17 @@
 <p>-Editing the DOM with js for example : document.getElementById("p1-name").textContent = "Rawan"</p>
 
 <h1>Challenges</h1>
-<p>
-let a = 5;
-let b = 12;
-let c = 4.6;
+<h3><a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/compound-assignment-with-augmented-multiplication">challenge 1</a></h3>
 
-// Only change code below this line
-a *= 5;
-b *= 3 ;
-c *= 10;</p>
+<p>
+let a = 5; <br>
+let b = 12; <br>
+let c = 4.6; <br>
+
+// Only change code below this line <br>
+a *= 5; <br>
+b *= 3 ; <br>
+c *= 10;</p> <br>
 
 
 
