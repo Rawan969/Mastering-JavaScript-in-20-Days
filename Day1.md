@@ -18,5 +18,11 @@ a *= 5; <br>
 b *= 3 ; <br>
 c *= 10;</p> <br>
 
+<h3><a href="[https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/compound-assignment-with-augmented-multiplication](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/concatenating-strings-with-the-plus-equals-operator)https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/concatenating-strings-with-the-plus-equals-operator">challenge 2</a></h3>
+<p>
+let myStr = "This is the first sentence. "; <br>
+myStr += "This is the second sentence."; <br>
+</p>
+
 
 
