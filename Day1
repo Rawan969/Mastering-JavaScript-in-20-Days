@@ -5,4 +5,13 @@ its like a tree start from the parent end to children
 -how to get elements by document object like using : getElemnetById , getElementByClassName,querySelectorAll...
 -Editing the DOM with js for example : document.getElementById("p1-name").textContent = "Rawan"
 
+let a = 5;
+let b = 12;
+let c = 4.6;
+
+// Only change code below this line
+a *= 5;
+b *= 3 ;
+c *= 10;
+
 
