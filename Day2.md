@@ -19,7 +19,7 @@
 <p>a statement "tells" js to do something(declare/assign)</p> </br>
 <h2>challenges</h2>
 <div>
-QUESTION #1
+<strong>QUESTION #1</strong>
 Consider the following JavaScript code:
 
 let a = 0;  </br>
@@ -34,7 +34,7 @@ What will be the output of each console.log statement? You MUST explain WHY. </b
 </div>
 
 <div>
-QUESTION #2:
+<strong>QUESTION #2:</strong>
 Consider the following JavaScript expression:
 
 console.log(4 + 5 * "7"); ---> return 39 (first it will convert the string to number then multiply it by 5 and add to it 4 ) </br>
