@@ -17,17 +17,18 @@
 <h3>*statements vs Expressions </h3>
 <p>an expression "asks" js for a value</p> </br>
 <p>a statement "tells" js to do something(declare/assign)</p> </br>
+<h2>challenges</h2>
 <div>
 QUESTION #1
 Consider the following JavaScript code:
 
-let a = 0;
-let b = "0";
-let c = false;
-let d = "false";
+let a = 0;  </br>
+let b = "0";  </br>
+let c = false;  </br>
+let d = "false";  </br>
 
-console.log(a == b);
-console.log(b === c);
-console.log(!!d);
-What will be the output of each console.log statement? You MUST explain WHY.
+console.log(a == b);  ---> return true (it will convert the type of variable b then compare)  </br>
+console.log(b === c); ---> return false (compare the types of two variables )  </br>
+console.log(!!d);     ---> return true  </br>
+What will be the output of each console.log statement? You MUST explain WHY. </br>
 </div>
