@@ -32,3 +32,11 @@ console.log(b === c); ---> return false (compare the types of two variables )  <
 console.log(!!d);     ---> return true  </br>
 What will be the output of each console.log statement? You MUST explain WHY. </br>
 </div>
+
+<div>
+QUESTION #2:
+Consider the following JavaScript expression:
+
+console.log(4 + 5 * "7"); ---> return 39 (first it will convert the string to number then multiply it by 5 and add to it 4 ) </br>
+What will be the output of this expression? You MUST explain the steps of evaluation taken by JS. </br>
+</div>
