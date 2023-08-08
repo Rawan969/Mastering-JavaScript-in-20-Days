@@ -27,7 +27,7 @@ let b = "0";  </br>
 let c = false;  </br>
 let d = "false";  </br>
 
-console.log(a == b);  ---> return true (it will convert the type of variable b then compare)  </br>
+console.log(a == b);  ---> return true (it will convert the type of variable b to number then compare it)  </br>
 console.log(b === c); ---> return false (compare the types of two variables )  </br>
 console.log(!!d);     ---> return true  </br>
 What will be the output of each console.log statement? You MUST explain WHY. </br>
@@ -36,7 +36,37 @@ What will be the output of each console.log statement? You MUST explain WHY. </b
 <div>
 <strong>QUESTION #2:</strong>
 Consider the following JavaScript expression:
-
 console.log(4 + 5 * "7"); ---> return 39 (first it will convert the string to number then multiply it by 5 and add to it 4 ) </br>
 What will be the output of this expression? You MUST explain the steps of evaluation taken by JS. </br>
 </div>
+
+<div>
+<strong>QUESTION #3:</strong>
+Evaluate the following expression:
+let result = 5 + 2 * 3 - 1; ---> the output will be : 10 (in order of arithmetic operations)  </br>
+What will be the output of this expression? You MUST explain the steps of evaluation taken by JS.  </br>
+</div>
+
+<div>
+<strong>QUESTION #4:</strong>
+Consider the following code:
+
+let x = 10;
+let y = '10';
+console.log(x == y); ---> return true (it will convert the type of variable y to number then compare it )  </br>
+console.log(x === y); ---> return false (compare the types of two variables )  </br>
+What will be the output of each console.log statement? You MUST explain WHY. </br>
+</div>
+
+<div>
+<strong>QUESTION #5:</strong>
+Given the code below:
+
+let num = "15"; </br>
+let isPositive = true; </br>
+let result = (num > 10 && isPositive) || num < 0; </br>
+console.log(result);  ----> return true  </br>
+What is the value of result? You MUST explain the steps of evaluation taken by JS </br>
+</div>
+
+
