@@ -1,6 +1,6 @@
 <h1>What did I learn today?</h1>
 <h3>*values & Data types </h3>
-<p><strong>js has two kinds of data </strong></p> </br>
+<p><strong>js has two kinds of data </strong></p> 
 <p>1.primitive types(strings,numbers,boolean,null,undefiend)</p> </br>
 <p>2.objects(document)</p> </br>
 <h4>*working with strings</h4>
