@@ -38,7 +38,47 @@ console.log(spreadOut());  </br>
 
 <h2><a href = "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/profile-lookup">challenge 3 </a></h2>
 <p>
-  
+  // Setup
+const contacts = [
+  {
+    firstName: "Akira",
+    lastName: "Laine",
+    number: "0543236543",
+    likes: ["Pizza", "Coding", "Brownie Points"],
+  },
+  {
+    firstName: "Harry",
+    lastName: "Potter",
+    number: "0994372684",
+    likes: ["Hogwarts", "Magic", "Hagrid"],
+  },
+  {
+    firstName: "Sherlock",
+    lastName: "Holmes",
+    number: "0487345643",
+    likes: ["Intriguing Cases", "Violin"],
+  },
+  {
+    firstName: "Kristian",
+    lastName: "Vos",
+    number: "unknown",
+    likes: ["JavaScript", "Gaming", "Foxes"],
+  },
+];
+
+function lookUpProfile(name, prop) {
+  // Only change code below this line
+  for(var i=0;i<contacts.length;i++){
+    if(contacts[i].firstName===name){
+      return contacts[i][prop] || "No such property" ; 
+    }
+  }
+  return "No such contact";
+
+  // Only change code above this line
+}
+
+lookUpProfile("Akira", "likes");
 </p> </br>
 
 <h2> <a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/write-reusable-javascript-with-functions">challenge 4 </a></h2>
@@ -47,6 +87,36 @@ console.log(spreadOut());  </br>
   console.log("Hi World");  </br>
 }  </br>
 reusableFunction();  </br>
+</p> </br>
+
+<h2> <a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/understanding-undefined-value-returned-from-a-function">challenge 5 </a></h2>
+<p>
+  // Setup
+let sum = 0;  </br>
+
+function addThree() { </br>
+  sum = sum + 3; </br>
+} </br>
+function addFive() { </br>
+  sum = sum + 5; </br>
+} </br>
+
+// Only change code below this line </br>
+
+
+// Only change code above this line </br>
+
+addThree(); </br>
+addFive(); </br>
+</p> </br>
+
+<h2><a href = "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/return-a-value-from-a-function-with-return">challenge 6</a></h2>
+<p>
+  function timesFive(num) { </br>
+  return num * 5; </br>
+} </br>
+
+const answer = timesFive(5); </br>
 </p> </br>
 
 
