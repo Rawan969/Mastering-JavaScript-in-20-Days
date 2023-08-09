@@ -36,7 +36,20 @@ console.log(forecast(['cold', 'rainy', 'warm', 'sunny', 'cool', 'thunderstorms']
 console.log(spreadOut());  </br>
 </p>  </br>
 
-<h2><a href = " ">challenge 3 </a></h2>
+<h2><a href = "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/profile-lookup">challenge 3 </a></h2>
+<p>
+  
+</p> </br>
+
+<h2> <a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/write-reusable-javascript-with-functions">challenge 4 </a></h2>
+<p>
+  function reusableFunction() {  </br>
+  console.log("Hi World");  </br>
+}  </br>
+reusableFunction();  </br>
+</p> </br>
+
+
 
 
 
