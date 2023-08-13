@@ -12,7 +12,7 @@
 <p><strong>.trim()</strong> removes spaces</p>
 <p><strong>3.Async function</strong> is we try to await something in regular function js doesnt allow it, we need to make it an async function ,this tells js to expect to await async operations inside the function.</p>
 <p><strong>4.Modules</strong> let us split big codebases across multiple files and they create their own scope.</p>
-<p><strong>export</strong>lets us expose variables from our module's scope to outside world.</p>
+<p><strong>export</strong> lets us expose variables from our module's scope to outside world.</p>
 <p><strong>import</strong> lets us use an exposed variable from another module.</p>
 <p><strong>5.Debugging</strong> a certainty of coding stuff will go wrong.</p>
 <p>console.log() (or .warn() or .error() is one way to understand whats happening when your program runs).</p>
@@ -22,6 +22,8 @@
 <p>usually errors will cause js to stop running our code but sometimes we might to try again or try a differnet way or if it was optional just skip it and move on with our program's lives.</p>
 <p><strong>try</strong> lets us "watch out" for potential errors.</p>
 <p>its friend <strong>catch</strong> lets us manage errors when they occur.</p>
+
+<h3><a href =" ">Challenge</a></h3>
 
 
 
