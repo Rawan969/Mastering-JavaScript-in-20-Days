@@ -13,12 +13,22 @@
 <p><strong>DRY(DONT REPEAT YOURSELF).</strong></p>
 <p><strong>we can generlize the function to make it reusable.</strong></p>
 <p><strong>Generalizing functions:</strong> "parameters" mean we dont need to decide what data to run our functionality on until we run the function then we can provide an actual values ['arguments']when we run the function.</p>
+![Screenshot (196)](https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/cad81cae-cb3a-40cd-9a14-28dfe37a6a2e)
+![Screenshot (197)](https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/da1a8bd4-f065-41d3-bb7b-e851cc562c9c)
+![Screenshot (198)](https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/f5185b72-b017-4947-83ad-36a56bc0a661)
+![Screenshot (199)](https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/5f6596e4-d0e4-42f9-8ae6-10a5ba99f6b4)
+![Screenshot (200)](https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/a4a7d0f5-27b1-4cf8-ad35-6e4ad6fc0cf7)
+![Screenshot (201)](https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/28189396-9e4d-4785-a65e-9bd77eebfc59)
+
+
+
 <p><strong>which is our higher order function?</strong></p>
 <p>the outer function that takes in a function is our higher-order function.</p>
 <p><strong>which is our callback function?</strong></p>
 <p>the function we insert is our callback function.</p>
 <p>callbacks and higher order functions simplify our code and keep it DRY.</p>
 <p><strong>pair programming</strong></p>
+![Screenshot (202)](https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/a75cf80a-bfc5-423a-a92a-6b455e1461c6)
 
 <h3><a href = "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/use-higher-order-functions-map-filter-or-reduce-to-solve-a-complex-problem">Challenge 1</a></h3>
 <div>
