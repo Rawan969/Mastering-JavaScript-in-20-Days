@@ -59,47 +59,47 @@ console.log(urlSlug("Winter Is Coming")) </br>
 <div>
   <h3>Question 1: Functions and Callbacks</h3>
   <div>
-    function mapAsync(array, callback) {  </br>
-  return new Promise((resolve, reject) => {  </br>
-    const mappedArray = [];  </br>
-    let completedCount = 0;  </br>
+    function mapAsync(array, callback) {  
+  return new Promise((resolve, reject) => {  
+    const mappedArray = [];  
+    let completedCount = 0;  
 
-    if (array.length === 0) { </br>
-      resolve(mappedArray);  </br>
-      return;  </br>
-    }  </br>
+    if (array.length === 0) { 
+      resolve(mappedArray);  
+      return;  
+    }  
 
-    array.forEach((item, index) => {  </br>
-      callback(item)  </br>
-        .then(mappedItem => {  </br>
-          mappedArray[index] = mappedItem;  </br>
-          completedCount++;  </br>
+    array.forEach((item, index) => {  
+      callback(item)  
+        .then(mappedItem => {  
+          mappedArray[index] = mappedItem;  
+          completedCount++; 
 
-          if (completedCount === array.length) {  </br>
-            resolve(mappedArray);  </br>
-          }  </br>
-        })  </br>
-        .catch(error => {  </br>
-          reject(error);  </br>
-        });  </br>
-    });  </br>
-  });  </br>
-}  </br>
+          if (completedCount === array.length) {  
+            resolve(mappedArray);  
+          }  
+        })  
+        .catch(error => {  
+          reject(error);  
+        });  
+    });  
+  });  
+} 
 
-// Example usage  </br>
-const inputArray = [1, 2, 3, 4, 5];  </br>
-const asyncCallback = async (value) => {  </br>
-  // Simulate some asynchronous operation  </br>
-  return value * 2; </br>
-}; </br>
+// Example usage  
+const inputArray = [1, 2, 3, 4, 5];  
+const asyncCallback = async (value) => { 
+  // Simulate some asynchronous operation 
+  return value * 2; 
+};
 
-mapAsync(inputArray, asyncCallback) </br>
-  .then(result => { </br>
-    console.log("Mapped Array:", result); </br>
-  }) </br>
-  .catch(error => { </br>
-    console.error("Error:", error); </br>
-  }); </br>
+mapAsync(inputArray, asyncCallback) 
+  .then(result => {
+    console.log("Mapped Array:", result); 
+  }) 
+  .catch(error => { 
+    console.error("Error:", error); 
+  }); 
   </div> </br>
   <h3>Question 2: Call Stack and Recursion</h3>
   <div>
