@@ -13,4 +13,4 @@
 <p><strong>DRY(DONT REPEAT YOURSELF).</strong></p>
 <p><strong>we can generlize the function to make it reusable.</strong></p>
 <p><strong>Generalizing functions:</strong> "parameters" mean we dont need to decide what data to run our functionality on until we run the function then we can provide an actual values ['arguments']when we run the function.</p>
-![Screenshot (196)](https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/382a003b-1986-482e-b7ee-6fcbb736f20e)
+![image1](https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/382a003b-1986-482e-b7ee-6fcbb736f20e)
