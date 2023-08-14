@@ -57,5 +57,18 @@ console.log(urlSlug("Winter Is Coming")) </br>
 </div> </br>
 <h3><a href = "https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week2%20-%20javaScript-the-hard-parts-v2/day%201/tasks.md">Challenge 3</a></h3>
 <div>
-  
+  <h3>Question 1: Functions and Callbacks</h3>
+  <h3>Question 2: Call Stack and Recursion</h3>
+  <div>
+    function sumRange(start, end) { </br>
+  if (start > end) { </br>
+    return 0; // if start is greater than end, return 0 </br>
+  } else { </br>
+    return start + sumRange(start + 1, end); // add current start value and recursively sum the rest of the range </br>
+  } </br>
+} </br>
+
+const result = sumRange(1, 6); </br>
+console.log(result); // Output: 21 (1 + 2 + 3 + 4 + 5 + 6)
+  </div>
 </div>
