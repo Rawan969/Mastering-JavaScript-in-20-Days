@@ -58,6 +58,49 @@ console.log(urlSlug("Winter Is Coming")) </br>
 <h3><a href = "https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week2%20-%20javaScript-the-hard-parts-v2/day%201/tasks.md">Challenge 3</a></h3>
 <div>
   <h3>Question 1: Functions and Callbacks</h3>
+  <div>
+    function mapAsync(array, callback) {  </br>
+  return new Promise((resolve, reject) => {  </br>
+    const mappedArray = [];  </br>
+    let completedCount = 0;  </br>
+
+    if (array.length === 0) { </br>
+      resolve(mappedArray);  </br>
+      return;  </br>
+    }  </br>
+
+    array.forEach((item, index) => {  </br>
+      callback(item)  </br>
+        .then(mappedItem => {  </br>
+          mappedArray[index] = mappedItem;  </br>
+          completedCount++;  </br>
+
+          if (completedCount === array.length) {  </br>
+            resolve(mappedArray);  </br>
+          }  </br>
+        })  </br>
+        .catch(error => {  </br>
+          reject(error);  </br>
+        });  </br>
+    });  </br>
+  });  </br>
+}  </br>
+
+// Example usage  </br>
+const inputArray = [1, 2, 3, 4, 5];  </br>
+const asyncCallback = async (value) => {  </br>
+  // Simulate some asynchronous operation  </br>
+  return value * 2; </br>
+}; </br>
+
+mapAsync(inputArray, asyncCallback) </br>
+  .then(result => { </br>
+    console.log("Mapped Array:", result); </br>
+  }) </br>
+  .catch(error => { </br>
+    console.error("Error:", error); </br>
+  }); </br>
+  </div> </br>
   <h3>Question 2: Call Stack and Recursion</h3>
   <div>
     function sumRange(start, end) { </br>
