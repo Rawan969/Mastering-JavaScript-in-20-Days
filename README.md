@@ -4,8 +4,9 @@
 
 <h2><strong>Courses</strong>.</h2>
 <ul>
-  <li>*[JavaScript: From First Steps to Professional]([https://www.markdownguide.org](https://frontendmasters.com/courses/javascript-first-steps/))*.</li>
+  <li><a href = "https://www.markdownguide.org](https://frontendmasters.com/courses/javascript-first-steps/">JavaScript: From First Steps to Professional</>.</li>
   <li>*[JavaScript: The Hard Parts, v2](https://frontendmasters.com/courses/javascript-hard-parts-v2/)*.</li>
 </ul>
 
 
+<a href = "https://www.markdownguide.org](https://frontendmasters.com/courses/javascript-first-steps/">JavaScript: From First Steps to Professional</>
