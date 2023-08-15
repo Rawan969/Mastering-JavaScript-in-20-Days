@@ -4,7 +4,7 @@
 
 <h2><strong>Courses</strong>.</h2>
 <ul>
-  <li><a href = "https://www.markdownguide.org](https://frontendmasters.com/courses/javascript-first-steps/">JavaScript: From First Steps to Professional</a>.</li>
+  <li><a href = "https://frontendmasters.com/courses/javascript-first-steps/">JavaScript: From First Steps to Professional</a>.</li>
   <li><a href = "https://frontendmasters.com/courses/javascript-hard-parts-v2/">JavaScript: The Hard Parts, v2</a></li>
 </ul>
 
