@@ -21,4 +21,19 @@
 <img src = "https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/d970137b-4f4b-4393-af07-0b68b1a67e98">
 
 <h2><a href ="https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week2%20-%20javaScript-the-hard-parts-v2/day%202/tasks.md">Exercises </a></h2>
+<h4>Question 1:</h4>
+<div>
+  function createCounter(num) {
+  let counter = num;
+
+  return function() {
+    counter++;
+    return counter;
+  };
+}
+
+const counter1 = createCounter(0);
+console.log(counter1()); // Output: 1
+console.log(counter1()); // Output: 2
+</div>
 
