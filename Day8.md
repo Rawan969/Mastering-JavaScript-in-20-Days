@@ -23,17 +23,68 @@
 <h2><a href ="https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week2%20-%20javaScript-the-hard-parts-v2/day%202/tasks.md">Exercises </a></h2>
 <h4>Question 1:</h4>
 <div>
-  function createCounter(num) {
-  let counter = num;
+  function createCounter(num) { </br>
+  let counter = num;  </br>
 
-  return function() {
-    counter++;
-    return counter;
-  };
-}
+  return function() {  </br>
+    counter++;  </br>
+    return counter;  </br>
+  };  </br>
+}  </br>
 
-const counter1 = createCounter(0);
-console.log(counter1()); // Output: 1
-console.log(counter1()); // Output: 2
-</div>
+const counter1 = createCounter(0);  </br>
+console.log(counter1()); // Output: 1  </br>
+console.log(counter1()); // Output: 2  </br>
+</div>  </br>
+<h4>Question 2:</h4>
+<div>
+  function calculateAverage(nums) { </br>
+  const sum = nums.reduce((acc, num) => acc + num, 0); </br>
+  const count = nums.length; </br>
+
+  return function() { </br>
+    return sum / count; </br>
+  }; </br>
+} </br>
+
+const numbers = [10, 20, 30, 40, 50]; </br>
+const averageCalculator = calculateAverage(numbers); </br>
+
+console.log(averageCalculator()); // Output: 30 </br>
+</div> </br>
+<h4>Question 3:</h4>
+<div>
+  function powerOf(base) { </br>
+  return function(exp) { </br>
+    return Math.pow(base, exp); </br>
+  }; </br>
+} </br>
+
+const square = powerOf(2); </br>
+console.log(square(3)); // Output: 8 (2^3) </br>
+</div> </br>
+<h4>Question 4:</h4>
+<div>
+  function compose(...functions) { </br>
+  return function(arg) { </br>
+    return functions.reduceRight((result, func) => func(result), arg); </br>
+  }; </br>
+} </br>
+
+// Example usage </br>
+function add2(x) { </br>
+  return x + 2; </br>
+} </br>
+
+function multiply3(x) { </br>
+  return x * 3; </br>
+} </br>
+
+function subtract5(x) { </br>
+  return x - 5; </br>
+} </br>
+
+const composedFunction = compose(subtract5, multiply3, add2); </br>
+console.log(composedFunction(10)); // Output: 31 </br>
+</div> </br>
 
