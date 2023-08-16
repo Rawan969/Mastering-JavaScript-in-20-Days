@@ -19,5 +19,7 @@
 <h4>Multiple closure instances</h4>
 <img src = "https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/5cc44750-0d5e-4bd7-a2bb-1de810e44c68">
 <img src = "https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/d970137b-4f4b-4393-af07-0b68b1a67e98">
-<>
+
+<a href ="https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week2%20-%20javaScript-the-hard-parts-v2/day%202/tasks.md">Exercises </a>
+
 
