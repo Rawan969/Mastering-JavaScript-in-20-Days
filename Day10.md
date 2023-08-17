@@ -16,4 +16,7 @@
 <p><strong>Solution 2:</strong></p>
 <img src ="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/55c803f4-adae-413c-bd89-8189399dc7af">
 <img src ="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/cb23274e-8d8b-473f-bf20-042a45c646dd">
+<p><strong>prototype chain example : prototype link</strong></p>
+<img src ="">
+<img src ="">
 
