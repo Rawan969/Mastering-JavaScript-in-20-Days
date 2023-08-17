@@ -19,4 +19,13 @@
 <p><strong>prototype chain example : prototype link</strong></p>
 <img src ="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/6a09a8fd-ae3a-4bb8-b92c-8b1e5a5705ca">
 <img src ="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/96d60792-1b43-47ba-a9d9-311ea3220413">
+<p><strong>prototype chain example : implicit parameters</strong></p>
+<img src ="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/0c5150bc-35fc-4650-a480-2ac9f6465185">
+<h3>has OwnProperty method</h3>
+<img src ="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/2db72aa6-9023-4be5-8306-2170604c4de8">
+<h3>this keyword</h3>
+<img src ="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/257b3102-1bd7-4d4a-bee2-13ed17966dfd">
+<h3>Arrow function Scope & this </h3>
+<img src  ="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/72d653d8-98c1-462e-aa24-3ca2a957dc52)">
+
 
