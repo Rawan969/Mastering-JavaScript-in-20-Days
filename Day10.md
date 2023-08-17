@@ -34,6 +34,8 @@
 <img src ="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/30b798ed-166e-4173-a8dd-9333aa551657">
 <p><strong>Solution 4: class keyword</strong></p>
 <img src ="![Screenshot (266)](https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/97aa25ba-c404-4016-8a50-6e07a210dd38)">
+</br>
+<h3><a href = "https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week2%20-%20javaScript-the-hard-parts-v2/day%204/task.md">Challenges</a></h3>
 
 
 
