@@ -184,8 +184,7 @@ const executeInSequenceWithPromises = (apis) => {
 
   return fetchApiSequentially(0);
 };
-
-// Usage
+</br>
 executeInSequenceWithPromises(apis)
   .then(results => {
     console.log(results);
