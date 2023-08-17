@@ -26,6 +26,15 @@
 <h3>this keyword</h3>
 <img src ="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/257b3102-1bd7-4d4a-bee2-13ed17966dfd">
 <h3>Arrow function Scope & this </h3>
-<img src  ="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/72d653d8-98c1-462e-aa24-3ca2a957dc52)">
+<img src ="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/72d653d8-98c1-462e-aa24-3ca2a957dc52">
+<p><strong>functions are both objects and function</strong></p>
+<img src ="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/d64e8f0e-7cc9-4f84-a55a-9a180a893ea0">
+<h3>new keyword</h3>
+<img src ="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/ebf36751-cecb-4fe1-8cdc-561f61b34c7b">
+<img src ="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/30b798ed-166e-4173-a8dd-9333aa551657">
+<p><strong>Solution 4: class keyword</strong></p>
+<img src ="![Screenshot (266)](https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/97aa25ba-c404-4016-8a50-6e07a210dd38)">
+
+
 
 
