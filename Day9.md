@@ -29,7 +29,7 @@
 <img src ="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/b9639d0f-62cb-4edc-8e4a-416462b6b211">
 
 <h3><a href = "https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week2%20-%20javaScript-the-hard-parts-v2/day%203/tasks.md">Challenges</a></h3>
-<h4>Question 1:</h4>
+<h3>Question 1:</h3>
 <div>
  const task1 = (cb) => setTimeout(() => {
     const message = "Task 1 has executed successfully!";
@@ -80,6 +80,119 @@ const executeInSequenceWithCBs = (tasks, callback) => {
 executeInSequenceWithCBs(asyncTasks, (messages) => {
     console.log(messages);
 });
+
+</div> </br>
+<h3>Question 2:</h3>
+<div>
+ const apis = [
+  {
+    apiName: "products",
+    apiUrl: "https://dummyjson.com/products",
+  },
+  {
+    apiName: "users",
+    apiUrl: "https://dummyjson.com/users",
+  },
+  {
+    apiName: "posts",
+    apiUrl: "https://dummyjson.com/posts",
+  },
+  {
+    apiName: "comments",
+    apiUrl: "https://dummyjson.com/comments",
+  }
+];
+
+const executeInParallelWithPromises = (apis) => {
+  const promiseArray = apis.map(api => {
+    return fetch(api.apiUrl)
+      .then(response => response.json())
+      .then(apiData => ({
+        apiName: api.apiName,
+        apiUrl: api.apiUrl,
+        apiData: apiData,
+      }))
+      .catch(error => ({
+        apiName: api.apiName,
+        apiUrl: api.apiUrl,
+        error: error.message,
+      }));
+  });
+
+  return Promise.all(promiseArray);
+};
+
+// Usage
+executeInParallelWithPromises(apis)
+  .then(results => {
+    console.log(results);
+  })
+  .catch(error => {
+    console.error("Error:", error);
+  });
+
+</div> </br>
+<h3>Question 3:</h3>
+<div>
+ const apis = [
+  {
+    apiName: "products",
+    apiUrl: "https://dummyjson.com/products",
+  },
+  {
+    apiName: "users",
+    apiUrl: "https://dummyjson.com/users",
+  },
+  {
+    apiName: "posts",
+    apiUrl: "https://dummyjson.com/posts",
+  },
+  {
+    apiName: "comments",
+    apiUrl: "https://dummyjson.com/comments",
+  }
+];
+
+const executeInSequenceWithPromises = (apis) => {
+  const results = [];
+
+  function fetchApiSequentially(index) {
+    if (index >= apis.length) {
+      return Promise.resolve(results);
+    }
+
+    const api = apis[index];
+    return fetch(api.apiUrl)
+      .then(response => response.json())
+      .then(apiData => {
+        results.push({
+          apiName: api.apiName,
+          apiUrl: api.apiUrl,
+          apiData: apiData,
+        });
+        return fetchApiSequentially(index + 1);
+      })
+      .catch(error => {
+        results.push({
+          apiName: api.apiName,
+          apiUrl: api.apiUrl,
+          error: error.message,
+        });
+        return fetchApiSequentially(index + 1);
+      });
+  }
+
+  return fetchApiSequentially(0);
+};
+
+// Usage
+executeInSequenceWithPromises(apis)
+  .then(results => {
+    console.log(results);
+  })
+  .catch(error => {
+    console.error("Error:", error);
+  });
 
 </div>
 
