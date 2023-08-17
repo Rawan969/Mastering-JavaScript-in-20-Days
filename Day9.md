@@ -28,6 +28,6 @@
 <img src ="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/03e35881-9a02-49d9-90cc-ee778497249e">
 <img src ="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/b9639d0f-62cb-4edc-8e4a-416462b6b211">
 
-
+<h3><a href = "https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week2%20-%20javaScript-the-hard-parts-v2/day%203/tasks.md">Challenges</a></h3>
 
 
