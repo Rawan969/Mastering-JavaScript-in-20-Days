@@ -15,4 +15,19 @@
 <p><strong>Callback Hell & Async</strong></p>
 <img src="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/af5380e5-21c0-492f-a105-71abf56a5fd2">
 
+<h3>Promises</h3>
+<img src ="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/9bee5c89-a541-451e-ae58-ab9b154e74c6">
+<p><strong>Promises Example: fetch</strong></p>
+<img src="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/b0e97b49-e02b-4db0-a3d0-12e9d884113d">
+<p><strong>then method</strong></p>
+<img src ="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/9f500773-b2a8-43fe-a1f0-9a91746e1952">
+<p><strong>Web APIs & promises Example:</strong></p>
+<img src ="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/64e0c280-cb61-402a-9b47-f20948f2704d">
+<p><strong>Promises Review</strong></p>
+<img src ="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/89030e7a-084a-4046-9d88-3d56be88930a">
+<img src ="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/03e35881-9a02-49d9-90cc-ee778497249e">
+<img src ="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/b9639d0f-62cb-4edc-8e4a-416462b6b211">
+
+
+
 
