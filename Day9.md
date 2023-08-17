@@ -31,54 +31,54 @@
 <h3><a href = "https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week2%20-%20javaScript-the-hard-parts-v2/day%203/tasks.md">Challenges</a></h3>
 <h4>Question 1:</h4>
 <div>
-  const task1 = (cb) => setTimeout(() => {
-  const message = "Task 1 has executed successfully!";
-  cb(message);
+ const task1 = (cb) => setTimeout(() => {
+    const message = "Task 1 has executed successfully!";
+    cb(message);
 }, 3000);
 
 const task2 = (cb) => setTimeout(() => {
-  const message = "Task 2 has executed successfully!";
-  cb(message);
+    const message = "Task 2 has executed successfully!";
+    cb(message);
 }, 0);
 
 const task3 = (cb) => setTimeout(() => {
-  const message = "Task 3 has executed successfully!";
-  cb(message);
+    const message = "Task 3 has executed successfully!";
+    cb(message);
 }, 1000);
 
 const task4 = (cb) => setTimeout(() => {
-  const message = "Task 4 has executed successfully!";
-  cb(message);
+    const message = "Task 4 has executed successfully!";
+    cb(message);
 }, 2000);
 
 const task5 = (cb) => setTimeout(() => {
-  const message = "Task 5 has executed successfully!";
-  cb(message);
+    const message = "Task 5 has executed successfully!";
+    cb(message);
 }, 4000);
 
 const asyncTasks = [task1, task2, task3, task4, task5];
 
 const executeInSequenceWithCBs = (tasks, callback) => {
-  const results = [];
+    const results = [];
 
-  function executeNextTask(index) {
-    if (index >= tasks.length) {
-      callback(results);
-      return;
+    function executeNextTask(index) {
+        if (index >= tasks.length) {
+            callback(results);
+            return;
+        }
+
+        const currentTask = tasks[index];
+        currentTask((message) => {
+            results.push(message);
+            executeNextTask(index + 1);
+        });
     }
 
-    const currentTask = tasks[index];
-    currentTask((message) => {
-      results.push(message);
-      executeNextTask(index + 1);
-    });
-  }
-
-  executeNextTask(0);
+    executeNextTask(0);
 };
 
 executeInSequenceWithCBs(asyncTasks, (messages) => {
-  console.log(messages);
+    console.log(messages);
 });
 
 </div>
