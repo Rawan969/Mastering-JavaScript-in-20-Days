@@ -6,6 +6,7 @@
 <ul>
   <li><a href = "https://frontendmasters.com/courses/javascript-first-steps/">JavaScript: From First Steps to Professional</a></li>
   <li><a href = "https://frontendmasters.com/courses/javascript-hard-parts-v2/">JavaScript: The Hard Parts, v2</a></li>
+  <li><a href = "https://frontendmasters.com/courses/deep-javascript-v3/introduction/">Deep JavaScript Foundations, v3</a></li>
 </ul>
 
 
