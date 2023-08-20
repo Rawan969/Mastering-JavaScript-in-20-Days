@@ -13,7 +13,7 @@
 <p><strong>Solution 1:</strong></p>
 <img src ="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/a6d32eb1-0ce3-4970-9b35-eed463f2450e">
 <img src ="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/e831c288-bf51-4b0b-ac2a-f7fbf050f8bd">
-<p><strong>Solution 2:</strong></p>
+<p><strong>Solution 2:</strong> </p>
 <img src ="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/55c803f4-adae-413c-bd89-8189399dc7af">
 <img src ="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/cb23274e-8d8b-473f-bf20-042a45c646dd">
 <p><strong>prototype chain example : prototype link</strong></p>
