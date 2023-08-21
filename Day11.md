@@ -1,4 +1,4 @@
-![image](https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/3aeb855f-9789-48c2-8ef7-aca9910182c5)<h1>Deep JavaScript Foundations, V3</h1>
+<h1>Deep JavaScript Foundations, V3</h1>
 <h2>What did I learn today?</h2>
 <p><strong>Primitive types</strong></p>
 <img src ="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/e5c5a0fd-98df-44ff-9090-1e73dc431942">
@@ -20,3 +20,11 @@
 <p><strong>Fundamental objects</strong></p>
 <img src="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/c577a0af-49d4-4ece-aa71-4dc8a21d0fbe">
 <img src="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/ed2325bc-e3f4-4f1c-b1d4-9d8e6b1bd4c3">
+<h2>Coercion</h2>
+<p><strong>Abstract operations</strong></p>
+<img src="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/bacf0e71-d6e1-4929-8e99-798327f9b098">
+<p><strong>ToString</strong></p>
+<img src="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/61940d02-7e0e-4ea3-801c-4283d8738aa9">
+<img src="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/2d6e6c21-3d56-4c8f-ad38-1c0a3b50185f">
+<img src="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/12e8505b-f1af-4018-b53f-3fcfa655a903">
+<img src="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/c06d79bf-35a2-41b4-b170-b3adbcd9f1c0">
