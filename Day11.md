@@ -28,3 +28,18 @@
 <img src="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/2d6e6c21-3d56-4c8f-ad38-1c0a3b50185f">
 <img src="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/12e8505b-f1af-4018-b53f-3fcfa655a903">
 <img src="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/c06d79bf-35a2-41b4-b170-b3adbcd9f1c0">
+<p><strong>ToNumber</strong></p>
+<img src="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/6ba04350-64c2-416f-a043-c1d074b3ddaa">
+<img src="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/a6a4c987-0a83-48bc-8fa4-38f11e821f1c">
+<img src="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/b9026876-9dd6-402c-8230-e4c282ba7b18">
+<img src="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/af766ae1-6661-48b8-90c2-d5738461adeb">
+<p><strong>ToBoolean</strong></p>
+<img src="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/d579f5b1-a679-4fec-972a-63c8a38b4cb0">
+<p><strong>Boxing</strong></p>
+<img src="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/575b256f-6ca5-42b6-85bf-4e301e1f1bcc">
+<p><strong>Coercion: corner cases</strong></p>
+<img src="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/2e3ace60-5561-4091-b7ef-9927b0c2cdd9">
+<img src="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/72738ba0-b923-4789-a5ec-7e2f74d4afc3">
+<img src="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/853accc9-5119-4d2c-b1de-f42649178d4e">
+
+
