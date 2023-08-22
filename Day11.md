@@ -41,5 +41,52 @@
 <img src="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/2e3ace60-5561-4091-b7ef-9927b0c2cdd9">
 <img src="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/72738ba0-b923-4789-a5ec-7e2f74d4afc3">
 <img src="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/853accc9-5119-4d2c-b1de-f42649178d4e">
-
+</br>
+<h2><a href="https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week3%20-%20deep-javascript-foundations-v3/day%201/tasks.md"></a>Challenges</h2>
+<h3>Question 1:</h3>
+<div>
+  function convertStringToNumber(input) {
+  if (typeof input === 'string') {
+    return +input;
+  } else {
+    return { value: input, type: typeof input };
+  }
+}
+</div>
+<h3>Question 2:</h3>
+<div>
+ function checkNaN(value) {
+  return Number.isNaN(value);
+} 
+</div>
+<h3>Question 3:</h3>
+<div>
+ function isEmptyValue(value) {
+  return value === undefined || value === null || value === "";
+} 
+</div>
+<h3>Question 4:</h3>
+<div>
+  function compareObjects(obj1, obj2) {
+  if (typeof obj1 === 'object' && typeof obj2 === 'object') {
+    return JSON.stringify(obj1) === JSON.stringify(obj2);
+  } else {
+    return [obj1, obj2];
+  }
+}
+</div>
+<h3>Question 5:</h3>
+<div>
+  function complexCoercion(input) {
+  if (typeof input === 'number') {
+    return Boolean(input.toString());
+  } else if (typeof input === 'string') {
+    return Boolean(input);
+  } else if (input === null || input === undefined) {
+    return false;
+  } else {
+    return input;
+  }
+}
+</div>
 
