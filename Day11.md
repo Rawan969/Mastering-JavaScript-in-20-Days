@@ -45,48 +45,48 @@
 <h2><a href="https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week3%20-%20deep-javascript-foundations-v3/day%201/tasks.md"></a>Challenges</h2>
 <h3>Question 1:</h3>
 <div>
-  function convertStringToNumber(input) {
-  if (typeof input === 'string') {
-    return +input;
-  } else {
-    return { value: input, type: typeof input };
-  }
-}
+  function convertStringToNumber(input) { </br>
+  if (typeof input === 'string') { </br>
+    return +input; </br>
+  } else { </br>
+    return { value: input, type: typeof input }; </br>
+  } </br>
+} </br>
 </div>
-<h3>Question 2:</h3>
-<div>
- function checkNaN(value) {
-  return Number.isNaN(value);
-} 
+<h3>Question 2:</h3> 
+<div> </br>
+ function checkNaN(value) { </br>
+  return Number.isNaN(value); </br>
+} </br>
 </div>
 <h3>Question 3:</h3>
-<div>
- function isEmptyValue(value) {
-  return value === undefined || value === null || value === "";
-} 
+<div> 
+ function isEmptyValue(value) { </br>
+  return value === undefined || value === null || value === ""; </br>
+}  </br>
 </div>
 <h3>Question 4:</h3>
 <div>
-  function compareObjects(obj1, obj2) {
-  if (typeof obj1 === 'object' && typeof obj2 === 'object') {
-    return JSON.stringify(obj1) === JSON.stringify(obj2);
-  } else {
-    return [obj1, obj2];
-  }
-}
+  function compareObjects(obj1, obj2) { </br>
+  if (typeof obj1 === 'object' && typeof obj2 === 'object') { </br>
+    return JSON.stringify(obj1) === JSON.stringify(obj2); </br>
+  } else { </br>
+    return [obj1, obj2]; </br>
+  } </br>
+} </br>
 </div>
 <h3>Question 5:</h3>
 <div>
-  function complexCoercion(input) {
-  if (typeof input === 'number') {
-    return Boolean(input.toString());
-  } else if (typeof input === 'string') {
-    return Boolean(input);
-  } else if (input === null || input === undefined) {
-    return false;
-  } else {
-    return input;
-  }
-}
+  function complexCoercion(input) { </br>
+  if (typeof input === 'number') { </br>
+    return Boolean(input.toString());</br>
+  } else if (typeof input === 'string') {</br>
+    return Boolean(input);</br>
+  } else if (input === null || input === undefined) {</br>
+    return false;</br>
+  } else {</br>
+    return input;</br>
+  }</br>
+}</br>
 </div>
 
