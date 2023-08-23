@@ -37,64 +37,69 @@
 <h2><a href="https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week3%20-%20deep-javascript-foundations-v3/day%202/tasks.md">Challenges</a></h2>
 <h3>QUESTION #1</h3>
 <div>
-  interface HelloWorldPromise extends Promise<string> {}
+  interface HelloWorldPromise extends Promise<string> {} </br>
 
-interface CheckBooleanPromise extends Promise<boolean> {}
+interface CheckBooleanPromise extends Promise<boolean> {} </br>
 
-interface ReturnObjPromise extends Promise<{ x: string; y: number }> {}
+interface ReturnObjPromise extends Promise<{ x: string; y: number }> {} </br>
 
-type PromisesArray = [HelloWorldPromise, CheckBooleanPromise, ReturnObjPromise];
+type PromisesArray = [HelloWorldPromise, CheckBooleanPromise, ReturnObjPromise]; </br>
 
-const sayHelloWorld: HelloWorldPromise = new Promise((resolve, reject) => {
-  resolve("Hello world!");
-});
+const sayHelloWorld: HelloWorldPromise = new Promise((resolve, reject) => { </br>
+  resolve("Hello world!"); </br>
+}); </br>
 
-const checkBoolean = (boolean: boolean): CheckBooleanPromise =>
-  new Promise((resolve, reject) => {
-    if (boolean) {
-      resolve(boolean);
-    } else {
-      reject(`Input is false :(`);
-    }
-  });
+const checkBoolean = (boolean: boolean): CheckBooleanPromise => </br>
+  new Promise((resolve, reject) => { </br>
+    if (boolean) { </br>
+      resolve(boolean); </br>
+    } else { </br>
+      reject(`Input is false :(`); </br>
+    } </br>
+  }); </br>
 
-const returnObj: ReturnObjPromise = new Promise((resolve, reject) => {
-  resolve({
-    x: "meow",
-    y: 45,
-  });
-});
+const returnObj: ReturnObjPromise = new Promise((resolve, reject) => { </br>
+  resolve({ </br>
+    x: "meow", </br>
+    y: 45, </br>
+  }); </br>
+}); </br>
 
-const promisesArray: PromisesArray = [sayHelloWorld, checkBoolean, returnObj];
+const promisesArray: PromisesArray = [sayHelloWorld, checkBoolean, returnObj]; </br>
 
-type PromisesResult = {
-  sayHelloWorld?: string;
-  checkBoolean?: boolean | string;
-  returnObj?: { x: string; y: number };
-};
+type PromisesResult = { </br>
+  sayHelloWorld?: string; </br>
+  checkBoolean?: boolean | string; </br>
+  returnObj?: { x: string; y: number }; </br>
+}; </br>
 
-const convertToObj = async (array: PromisesArray): Promise<PromisesResult> => {
-  const result: PromisesResult = {};
+const convertToObj = async (array: PromisesArray): Promise<PromisesResult> => {</br>
+  const result: PromisesResult = {}; </br>
 
-  for (const promise of array) {
-    if (promise === sayHelloWorld) {
-      result.sayHelloWorld = await promise;
-    } else if (promise === checkBoolean) {
-      try {
-        result.checkBoolean = await promise(true);
-      } catch (error) {
-        result.checkBoolean = error;
-      }
-    } else if (promise === returnObj) {
-      result.returnObj = await promise;
-    }
-  }
+  for (const promise of array) { </br>
+    if (promise === sayHelloWorld) { </br>
+      result.sayHelloWorld = await promise;</br>
+    } else if (promise === checkBoolean) { </br>
+      try { </br>
+        result.checkBoolean = await promise(true); </br>
+      } catch (error) { </br>
+        result.checkBoolean = error; </br>
+      }</br>
+    } else if (promise === returnObj) { </br>
+      result.returnObj = await promise; </br>
+    } </br>
+  }</br>
 
-  return result;
-};
+  return result;  </br>
+}; </br>
+ 
+convertToObj(promisesArray) </br>
+  .then((obj) => console.log(obj))</br>
+  .catch((error) => console.error(error)); </br>
 
-convertToObj(promisesArray)
-  .then((obj) => console.log(obj))
-  .catch((error) => console.error(error));
-
-</div>
+</div></br>
+<h3>QUESTION #2</h3>
+<p>
+  1, ReferenceError, ReferenceError
+  In JavaScript, variables declared with var have function-level scope, while variables declared with let and const have block-level scope. This means that var variables are accessible throughout the entire function in which they are defined, regardless of block scopes, while let and const variables are only accessible within the block they are defined in.
+</p>
