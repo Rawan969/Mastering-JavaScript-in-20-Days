@@ -34,5 +34,67 @@
 <img src="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/1bf4eab4-88ed-4fea-addf-a259b514ef85">
 <p><strong>Validating operand types</strong></p>
 <img src="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/3d77473c-de30-4e56-9807-1522ede68086">
+<h2><a href="https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week3%20-%20deep-javascript-foundations-v3/day%202/tasks.md">Challenges</a></h2>
+<h3>QUESTION #1</h3>
+<div>
+  interface HelloWorldPromise extends Promise<string> {}
 
+interface CheckBooleanPromise extends Promise<boolean> {}
 
+interface ReturnObjPromise extends Promise<{ x: string; y: number }> {}
+
+type PromisesArray = [HelloWorldPromise, CheckBooleanPromise, ReturnObjPromise];
+
+const sayHelloWorld: HelloWorldPromise = new Promise((resolve, reject) => {
+  resolve("Hello world!");
+});
+
+const checkBoolean = (boolean: boolean): CheckBooleanPromise =>
+  new Promise((resolve, reject) => {
+    if (boolean) {
+      resolve(boolean);
+    } else {
+      reject(`Input is false :(`);
+    }
+  });
+
+const returnObj: ReturnObjPromise = new Promise((resolve, reject) => {
+  resolve({
+    x: "meow",
+    y: 45,
+  });
+});
+
+const promisesArray: PromisesArray = [sayHelloWorld, checkBoolean, returnObj];
+
+type PromisesResult = {
+  sayHelloWorld?: string;
+  checkBoolean?: boolean | string;
+  returnObj?: { x: string; y: number };
+};
+
+const convertToObj = async (array: PromisesArray): Promise<PromisesResult> => {
+  const result: PromisesResult = {};
+
+  for (const promise of array) {
+    if (promise === sayHelloWorld) {
+      result.sayHelloWorld = await promise;
+    } else if (promise === checkBoolean) {
+      try {
+        result.checkBoolean = await promise(true);
+      } catch (error) {
+        result.checkBoolean = error;
+      }
+    } else if (promise === returnObj) {
+      result.returnObj = await promise;
+    }
+  }
+
+  return result;
+};
+
+convertToObj(promisesArray)
+  .then((obj) => console.log(obj))
+  .catch((error) => console.error(error));
+
+</div>
