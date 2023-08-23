@@ -24,5 +24,15 @@
 <img src="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/906e3efc-ac38-484b-9b94-886e3d777773">
 <img src="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/30d78654-30c3-4b43-b997-7c9a055c3af0">
 <img src="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/73ceb3f3-dcc1-4b22-8d32-ff08cb8b0946">
+</br>
+<h2>Static Typing</h2>
+<p><strong>TypeScript & flow</strong></p>
+<img src="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/b305b6f0-ec24-4916-b38d-830ebfd8bd54">
+<img src="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/ac50bdd0-64dc-470e-a868-b19305223c2e">
+<img src="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/1d45984c-67c4-4609-ba8b-eceb0f5c3f86">
+<p><strong>Custom Types</strong></p>
+<img src="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/1bf4eab4-88ed-4fea-addf-a259b514ef85">
+<p><strong>Validating operand types</strong></p>
+<img src="https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/3d77473c-de30-4e56-9807-1522ede68086">
 
 
