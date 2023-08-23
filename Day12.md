@@ -100,6 +100,17 @@ convertToObj(promisesArray) </br>
 </div></br>
 <h3>QUESTION #2</h3>
 <p>
-  1, ReferenceError, ReferenceError
+  1, ReferenceError, ReferenceError </br>
   In JavaScript, variables declared with var have function-level scope, while variables declared with let and const have block-level scope. This means that var variables are accessible throughout the entire function in which they are defined, regardless of block scopes, while let and const variables are only accessible within the block they are defined in.
 </p>
+<h3>QUESTION #3</h3>
+<div>
+  undefined, ReferenceError, ReferenceError </br>
+  In JavaScript, variables declared with var are hoisted to the top of their containing function or scope, which means they are declared before the code execution starts. However, their assignments are not hoisted, so they have an initial value of undefined.
+</div>
+<h3>QUESTION #4</h3>
+<div>
+  [ 36, 100, 45 ] | [ 1, 2, 3 ] | [ 1,100, 45 ] </br>
+  Variables declared with var have function-level scope, so the re-declarations of var a within the if block affect the entire function's scope.
+Variables declared with let and const have block-level scope, so the let b and const c declarations within the if block do not affect the outer scope.
+</div>
