@@ -1,4 +1,4 @@
-![image](https://github.com/Rawan969/Mastering-JavaScript-in-20-Days/assets/121896627/5cce8ca9-1e24-43c5-876a-d0a491615ee3)<h1>Deep JavaScript Foundations, V3</h1>
+<h1>Deep JavaScript Foundations, V3</h1>
 <h2>What did I learn today?</h2>
 <h2>Advanced Scope</h2>
 <p><strong>Lexical Scope</strong></p>
